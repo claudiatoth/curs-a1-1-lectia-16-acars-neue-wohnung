@@ -263,12 +263,12 @@ function checkEx4() {
 // EX 5: Turul casei Acar (Lückentext mix)
 // ============================================
 const ex5Data = [
-    { id: 'a', sentence: 'Acar: ____ Erdgeschoss gibt es ein Wohnzimmer. (in + Dat. neutr)', translation: 'La parter este un living.', correct: 'Im', accept: ['im'] },
-    { id: 'b', sentence: 'Acar: Die Küche ist neben dem Wohnzimmer, auch ____ Erdgeschoss. (in + Dat. neutr)', translation: 'Bucătăria e lângă living, tot la parter.', correct: 'im', accept: ['im'] },
+    { id: 'a', sentence: 'Acar: ____ Erdgeschoss gibt es ein Wohnzimmer. (das Erdgeschoss · în — staționare)', translation: 'La parter este un living.', correct: 'Im', accept: ['im'] },
+    { id: 'b', sentence: 'Acar: Die Küche ist neben dem Wohnzimmer, auch ____ Erdgeschoss. (das Erdgeschoss · în — staționare)', translation: 'Bucătăria e lângă living, tot la parter.', correct: 'im', accept: ['im'] },
     { id: 'c', sentence: 'Andreea: Wie viele ____ hat das Haus? (plural de Zimmer)', translation: 'Câte camere are casa?', correct: 'Zimmer', accept: ['zimmer'] },
-    { id: 'd', sentence: 'Acar: ____ Obergeschoss sind das Schlafzimmer und das Badezimmer. (in + Dat. neutr)', translation: 'La etaj sunt dormitorul și baia.', correct: 'Im', accept: ['im'] },
-    { id: 'e', sentence: 'Acar: ____ Küche stehen der Herd und der Kühlschrank. (in + Dat. fem)', translation: 'În bucătărie sunt aragazul și frigiderul.', correct: 'In der', accept: ['in der'] },
-    { id: 'f', sentence: 'Acar: ____ Kinderzimmer ist das Babybett. (in + Dat. neutr)', translation: 'În camera copilului e pătuțul.', correct: 'Im', accept: ['im'] },
+    { id: 'd', sentence: 'Acar: ____ Obergeschoss sind das Schlafzimmer und das Badezimmer. (das Obergeschoss · în — staționare)', translation: 'La etaj sunt dormitorul și baia.', correct: 'Im', accept: ['im'] },
+    { id: 'e', sentence: 'Acar: ____ Küche stehen der Herd und der Kühlschrank. (die Küche · în — staționare)', translation: 'În bucătărie sunt aragazul și frigiderul.', correct: 'In der', accept: ['in der'] },
+    { id: 'f', sentence: 'Acar: ____ Kinderzimmer ist das Babybett. (das Kinderzimmer · în — staționare)', translation: 'În camera copilului e pătuțul.', correct: 'Im', accept: ['im'] },
     { id: 'g', sentence: 'Acar: Mihai, ____ bitte dein Zimmer auf! (aufräumen — imperativ du)', translation: 'Mihai, fă te rog curat în camera ta!', correct: 'Räum', accept: ['räum', 'raeum', 'räume', 'raeume'] },
     { id: 'h', sentence: 'Andreea: Wir ____ jeden Samstag unsere Wohnung auf. (aufräumen — wir)', translation: 'Facem curat în apartament în fiecare sâmbătă.', correct: 'räumen', accept: ['räumen', 'raeumen'] }
 ];
@@ -278,8 +278,8 @@ function buildEx5() {
     if (!container) return;
     let html = `
         <div class="exercise-instruction">
-            <strong>🏠 Acar îți face turul casei. Completează (in + Dat. + aufräumen).</strong><br>
-            Citește indicația din paranteză. La aufräumen prefixul <strong>auf</strong> e deja la final — scrie doar partea care lipsește.
+            <strong>🏠 Acar îți face turul casei. Completează cu forme contrase „in + Dativ" și verbul aufräumen.</strong><br>
+            Indiciul din paranteză îți dă substantivul + indicația „în staționare" — tu trebuie să gândești fuziunea. La aufräumen prefixul <strong>auf</strong> e deja la final — scrie doar partea care lipsește.
         </div>
     `;
     ex5Data.forEach((item, index) => {
