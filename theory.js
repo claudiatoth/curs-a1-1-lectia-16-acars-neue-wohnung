@@ -36,7 +36,7 @@ const theoryHTML = `
 
             <div class="theory-box">
                 <h4>Acar și familia lui se mută în Oranienburg</h4>
-                <p>Îți amintești de Acar din Lecția 10? E maistru (Vorarbeiter) pe șantier. Acum, după ce și-a strâns bani, a cumpărat o casă mare lângă <strong>Lehnitzsee</strong>, în Oranienburg. Familia lui se mută săptămâna asta și Acar îți face turul.</p>
+                <p>Acar e maistru (Vorarbeiter) pe șantier. Acum, după ce și-a strâns bani, a cumpărat o casă mare lângă <strong>Lehnitzsee</strong>, în Oranienburg. Familia lui se mută săptămâna asta și Acar îți face turul.</p>
                 <p>Învățăm tot ce trebuie să descrii o locuință în germană:</p>
                 <ul style="margin-left: 18px; margin-top: 6px;">
                     <li>tipurile de <strong>locuință</strong> (Haus, Wohnung, WG) + <strong>camerele</strong> (Wohnzimmer, Küche...)</li>
@@ -244,7 +244,7 @@ const theoryHTML = `
             <div class="theory-box">
                 <h4>📚 Wo? (Unde?) cere Dativ</h4>
                 <p>Când întrebi <strong>Wo? (Unde?)</strong>, răspunsul folosește <strong>Dativ</strong>. Prepoziția cea mai folosită pentru „înăuntru" e <strong>in</strong> — pe care ai văzut-o deja la Lecția 14.</p>
-                <p>Regula articolelor la Dativ (recap din L14): <strong>der → dem, die → der, das → dem, plural die → den + -n</strong> la substantiv.</p>
+                <p>Regula articolelor la Dativ: <strong>der → dem, die → der, das → dem, plural die → den + -n</strong> la substantiv.</p>
             </div>
 
             <p style="margin: 10px 0 4px;"><strong>Forme contrase</strong> (extrem de frecvente — învață-le ca atare):</p>
@@ -263,18 +263,8 @@ const theoryHTML = `
                 <tr><td>Der Kühlschrank ist <strong>in der</strong> Küche.</td><td>Frigiderul e în bucătărie.</td></tr>
                 <tr><td>Das Sofa ist <strong>im</strong> Wohnzimmer.</td><td>Canapeaua e în living.</td></tr>
                 <tr><td>Die Dusche ist <strong>im</strong> Badezimmer.</td><td>Dușul e în baie.</td></tr>
-                <tr><td>Der Grill ist <strong>auf der</strong> Terrasse.</td><td>Grătarul e pe terasă. (auf + Dativ — vezi A2)</td></tr>
+                <tr><td>Der Grill ist <strong>auf der</strong> Terrasse.</td><td>Grătarul e pe terasă.</td></tr>
             </table>
-
-            <div class="theory-box" style="background:#fff7ed; border-left:4px solid #ea580c; margin-top:14px;">
-                <h4>🔗 Vrei mai mult? Vezi A2 Positionsverben</h4>
-                <p>Aici am tratat doar <strong>„in" + Dativ pentru locație</strong> (Wo?). Germana are <strong>9 Wechselpräpositionen</strong> (in, an, auf, vor, hinter, über, unter, neben, zwischen) care pot răspunde la <strong>Wo? (Dativ)</strong> SAU <strong>Wohin? (Akkusativ)</strong>. Plus prepozițiile fixe (durch, gegen, um, aus, von, nach, gegenüber).</p>
-                <p>Pentru tratamentul complet, vezi cursurile A2:</p>
-                <ul style="margin-left:18px; margin-top:6px;">
-                    <li><a href="https://claudiatoth.github.io/curs-a2-positionsverben-teil-1/" target="_blank" style="color:#065f46;"><strong>A2 Positionsverben Teil 1</strong></a> — 9 Wechselpräpositionen + Wo/Wohin + verbele de poziție (liegen/legen, stehen/stellen)</li>
-                    <li><a href="https://claudiatoth.github.io/curs-a2-positionsverben-teil-2/" target="_blank" style="color:#065f46;"><strong>A2 Positionsverben Teil 2</strong></a> — 7 prepoziții fixe Dativ + 6 fixe Akkusativ + forme contrase (zum/zur/beim/vom)</li>
-                </ul>
-            </div>
         </div>
     </div>
 
@@ -300,17 +290,7 @@ const theoryHTML = `
 
             <div class="theory-box" style="background:#fef3c7; margin-top:14px;">
                 <h4>🧹 Verb nou: aufräumen (a face curat / a strânge)</h4>
-                <p>Verb <strong>separabil</strong>, regulat: <em>Ich räume mein Zimmer auf.</em> (Îmi fac curat în cameră.) Prefixul <strong>auf</strong> merge la final, ca la toate verbele separabile din Lecția 9. Vezi conjugarea completă în secțiunea 🔁 <strong>Verbe</strong>.</p>
-            </div>
-
-            <div class="theory-box" style="background:#ecfdf5; margin-top:14px;">
-                <h4>🔗 Vrei mai mult vocabular Wohnen?</h4>
-                <p>Pentru aprofundare pe vocabular și exerciții suplimentare:</p>
-                <ul style="margin-left:18px; margin-top:6px;">
-                    <li><a href="https://claudiatoth.github.io/das-haus-umzug/" target="_blank" style="color:#065f46;"><strong>das-haus-umzug</strong></a> — casa înainte/după mutare (mobilier extins)</li>
-                    <li><a href="https://claudiatoth.github.io/claudia-zimmer/" target="_blank" style="color:#065f46;"><strong>claudia-zimmer</strong></a> — camera Claudiei (vocabular cameră)</li>
-                    <li><a href="https://claudiatoth.github.io/in-der-kueche/" target="_blank" style="color:#065f46;"><strong>in-der-kueche</strong></a> — în bucătărie (vocabular bucătărie)</li>
-                </ul>
+                <p>Verb <strong>separabil</strong>, regulat: <em>Ich räume mein Zimmer auf.</em> (Îmi fac curat în cameră.) Prefixul <strong>auf</strong> merge la final. Vezi conjugarea completă în secțiunea 🔁 <strong>Verbe</strong>.</p>
             </div>
         </div>
     </div>

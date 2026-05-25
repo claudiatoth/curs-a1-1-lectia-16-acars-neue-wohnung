@@ -44,7 +44,7 @@ function buildVerbs() {
         '<img src="images/andreea.png" alt="Andreea" class="andreea-note-avatar">' +
         '<div class="andreea-note-content">' +
         '<div class="speaker">Andreea îți spune:</div>' +
-        '<div class="text">„L16 e mai mult vocabular Wohnen decât gramatică verbală. Singurul verb nou e <strong>aufräumen</strong> (separabil, ca cele din L9). Restul sunt verbe pe care le știi deja — îți pun referințe rapide mai jos. 🦋"</div>' +
+        '<div class="text">„Lecția asta e mai mult vocabular Wohnen decât gramatică verbală. Singurul verb nou e <strong>aufräumen</strong> — un verb separabil regulat. Restul sunt verbe pe care le știi deja — îți pun referințe rapide mai jos. 🦋"</div>' +
         '</div></div>';
 
     verbsData.forEach(function (v, i) {
@@ -64,16 +64,10 @@ function buildVerbs() {
     });
 
     html += '<div class="theory-box" style="background:#fff7ed; border-left:4px solid #ea580c; margin-top:14px;">' +
-        '<p style="margin:0 0 6px;">📎 <strong>Deja conjugat la Lecția 1:</strong> ' +
-        '<strong>wohnen</strong> — a locui (slab/regulat): ich wohne · er wohnt · Prät. wohnte · Perfekt er hat gewohnt. ' +
+        '<p style="margin:0 0 6px;">📎 <strong>wohnen</strong> — a locui (slab/regulat): ich wohne · er wohnt · Prät. wohnte · Perfekt er hat gewohnt. ' +
         '<em>Acar wohnt jetzt in Oranienburg.</em></p>' +
-        '<p style="margin:0;">📎 <strong>Deja conjugat la Lecția 14:</strong> ' +
-        '<strong>gefallen</strong> — a plăcea (+ Dativ, tare/neregulat): gefällt · Prät. gefiel · Perfekt er hat gefallen. ' +
+        '<p style="margin:0;">📎 <strong>gefallen</strong> — a plăcea (+ Dativ, tare/neregulat): gefällt · Prät. gefiel · Perfekt er hat gefallen. ' +
         '<em>Die neue Wohnung gefällt Acar.</em></p></div>';
-
-    html += '<div class="theory-box" style="background:#ecfdf5; border-left:4px solid #047857; margin-top:8px;">' +
-        '<p style="margin:0;">🔗 <strong>Verbe de poziție (stellen / stehen / liegen / legen / setzen / sitzen) + cele 9 Wechselpräpositionen</strong> — tratament complet la <a href="https://claudiatoth.github.io/curs-a2-positionsverben-teil-1/" target="_blank" style="color:#065f46;"><strong>A2 Positionsverben Teil 1</strong></a>. ' +
-        'La A1 e suficient să recunoști <em>Das Sofa steht im Wohnzimmer</em> · <em>Die Lampe hängt an der Decke</em>.</p></div>';
 
     container.innerHTML = html;
 }

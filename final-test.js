@@ -43,7 +43,7 @@ const finalTestData = [
     { type: 'luckentext', category: '📍 in + Dativ', question: 'Forma contrasă: in + dem = ____', sentence: '', translation: 'in + dem (mask/neutr) se contractă', accept: ['im'], correct: 'im', explanation: 'in + dem → im (formă contrasă obligatorie pentru masculin/neutru).' },
     { type: 'multiple', category: '📍 in + Dativ', question: 'Cum spui corect „în living"?', options: ['in das Wohnzimmer', 'im Wohnzimmer', 'in der Wohnzimmer', 'dem Wohnzimmer'], correct: 'im Wohnzimmer', explanation: 'das Wohnzimmer (neutru) → im Wohnzimmer (in + dem = im).' },
     { type: 'luckentext', category: '📍 in + Dativ', question: 'Completează cu prepoziția + articol:', sentence: 'Der Kühlschrank ist ____ Küche.', translation: 'în bucătărie', accept: ['in der'], correct: 'in der', explanation: 'die Küche (feminin) → in der Küche. „in + der" NU se contractă (doar in + dem → im).' },
-    { type: 'multiple', category: '📍 in + Dativ', question: 'La ce întrebare răspunde Dativul cu prepozițiile de loc?', options: ['Wohin?', 'Wer?', 'Wo?', 'Was?'], correct: 'Wo?', explanation: 'Wo? (Unde?) + Dativ = locul unde se află ceva. Wohin? (Încotro?) + Akkusativ = direcție — vezi A2 Positionsverben.' }
+    { type: 'multiple', category: '📍 in + Dativ', question: 'La ce întrebare răspunde Dativul cu prepozițiile de loc?', options: ['Wohin?', 'Wer?', 'Wo?', 'Was?'], correct: 'Wo?', explanation: 'Wo? (Unde?) + Dativ = locul unde se află ceva. Wohin? (Încotro?) + Akkusativ = direcție.' }
 ];
 
 let currentQuestionIndex = 0;
