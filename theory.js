@@ -121,33 +121,33 @@ const theoryHTML = `
 
             <p style="margin: 6px 0 4px;"><strong>Tipuri de locuință:</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>das Haus</td><td>casa (Acar: casă mare în Oranienburg)</td></tr>
-                <tr><td>die Wohnung</td><td>apartamentul (Andreea: apartament de studentă în Berlin)</td></tr>
-                <tr><td>die WG (Wohngemeinschaft)</td><td>locuința comună (studenți care împart chiria)</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>das Haus · die Häuser</td><td>casa · casele (Acar: casă mare în Oranienburg)</td></tr>
+                <tr><td>die Wohnung · die Wohnungen</td><td>apartamentul · apartamentele (Andreea: apartament de studentă în Berlin)</td></tr>
+                <tr><td>die WG · die WGs (Wohngemeinschaft)</td><td>locuința comună · locuințele comune (studenți care împart chiria)</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Camerele unei locuințe:</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>das Wohnzimmer</td><td>livingul / sufrageria</td></tr>
-                <tr><td>die Küche</td><td>bucătăria</td></tr>
-                <tr><td>das Schlafzimmer</td><td>dormitorul</td></tr>
-                <tr><td>das Badezimmer (das Bad)</td><td>baia</td></tr>
-                <tr><td>das Kinderzimmer</td><td>camera copilului</td></tr>
-                <tr><td>das Arbeitszimmer</td><td>biroul / camera de lucru</td></tr>
-                <tr><td>das Gästezimmer</td><td>camera de oaspeți</td></tr>
-                <tr><td>das Gäste-WC</td><td>toaleta pentru oaspeți</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>das Wohnzimmer · die Wohnzimmer</td><td>livingul · livingurile (pl identic în DE)</td></tr>
+                <tr><td>die Küche · die Küchen</td><td>bucătăria · bucătăriile</td></tr>
+                <tr><td>das Schlafzimmer · die Schlafzimmer</td><td>dormitorul · dormitoarele (pl identic)</td></tr>
+                <tr><td>das Badezimmer · die Badezimmer (das Bad · die Bäder)</td><td>baia · băile</td></tr>
+                <tr><td>das Kinderzimmer · die Kinderzimmer</td><td>camera copilului · camerele copiilor (pl identic)</td></tr>
+                <tr><td>das Arbeitszimmer · die Arbeitszimmer</td><td>biroul · birourile / camera de lucru · camerele de lucru</td></tr>
+                <tr><td>das Gästezimmer · die Gästezimmer</td><td>camera de oaspeți · camerele de oaspeți</td></tr>
+                <tr><td>das Gäste-WC · die Gäste-WCs</td><td>toaleta pentru oaspeți · toaletele pentru oaspeți</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Zone exterioare + etaje:</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>der Garten</td><td>grădina</td></tr>
-                <tr><td>der Balkon</td><td>balconul</td></tr>
-                <tr><td>die Terrasse / die Dachterrasse</td><td>terasa / terasa pe acoperiș</td></tr>
-                <tr><td>das Erdgeschoss (EG)</td><td>parterul</td></tr>
-                <tr><td>das Obergeschoss (OG)</td><td>etajul</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>der Garten · die Gärten</td><td>grădina · grădinile</td></tr>
+                <tr><td>der Balkon · die Balkone</td><td>balconul · balcoanele</td></tr>
+                <tr><td>die Terrasse · die Terrassen (die Dachterrasse · die Dachterrassen)</td><td>terasa · terasele / terasa pe acoperiș · terasele pe acoperiș</td></tr>
+                <tr><td>das Erdgeschoss · die Erdgeschosse (EG)</td><td>parterul · parterele</td></tr>
+                <tr><td>das Obergeschoss · die Obergeschosse (OG)</td><td>etajul · etajele</td></tr>
             </table>
 
             <div class="theory-box" style="background:#ecfdf5; margin-top:14px;">
@@ -175,53 +175,53 @@ const theoryHTML = `
 
             <p style="margin: 6px 0 4px;"><strong>Schlafzimmer (dormitor):</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>das Bett</td><td>patul</td></tr>
-                <tr><td>der Nachttisch</td><td>noptiera</td></tr>
-                <tr><td>der Kleiderschrank</td><td>dulapul de haine</td></tr>
-                <tr><td>die Kommode</td><td>comoda</td></tr>
-                <tr><td>die Lampe</td><td>lampa / veioza</td></tr>
-                <tr><td>der Teppich</td><td>covorul</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>das Bett · die Betten</td><td>patul · paturile</td></tr>
+                <tr><td>der Nachttisch · die Nachttische</td><td>noptiera · noptierele</td></tr>
+                <tr><td>der Kleiderschrank · die Kleiderschränke</td><td>dulapul de haine · dulapurile de haine</td></tr>
+                <tr><td>die Kommode · die Kommoden</td><td>comoda · comodele</td></tr>
+                <tr><td>die Lampe · die Lampen</td><td>lampa · lămpile / veioza · veiozele</td></tr>
+                <tr><td>der Teppich · die Teppiche</td><td>covorul · covoarele</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Wohnzimmer (living):</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>das Sofa</td><td>canapeaua</td></tr>
-                <tr><td>der Sessel</td><td>fotoliul</td></tr>
-                <tr><td>der Fernseher</td><td>televizorul</td></tr>
-                <tr><td>der Tisch</td><td>masa</td></tr>
-                <tr><td>das Bücherregal</td><td>biblioteca (raft de cărți)</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>das Sofa · die Sofas</td><td>canapeaua · canapelele</td></tr>
+                <tr><td>der Sessel · die Sessel</td><td>fotoliul · fotoliile (pl identic)</td></tr>
+                <tr><td>der Fernseher · die Fernseher</td><td>televizorul · televizoarele (pl identic)</td></tr>
+                <tr><td>der Tisch · die Tische</td><td>masa · mesele</td></tr>
+                <tr><td>das Bücherregal · die Bücherregale</td><td>biblioteca · bibliotecile (raft de cărți)</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Küche (bucătărie):</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>der Herd</td><td>aragazul (plita)</td></tr>
-                <tr><td>der Backofen</td><td>cuptorul</td></tr>
-                <tr><td>der Kühlschrank</td><td>frigiderul</td></tr>
-                <tr><td>die Spülmaschine</td><td>mașina de spălat vase</td></tr>
-                <tr><td>der Stuhl</td><td>scaunul</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>der Herd · die Herde</td><td>aragazul · aragazurile (plita · plitele)</td></tr>
+                <tr><td>der Backofen · die Backöfen</td><td>cuptorul · cuptoarele</td></tr>
+                <tr><td>der Kühlschrank · die Kühlschränke</td><td>frigiderul · frigiderele</td></tr>
+                <tr><td>die Spülmaschine · die Spülmaschinen</td><td>mașina de spălat vase · mașinile de spălat vase</td></tr>
+                <tr><td>der Stuhl · die Stühle</td><td>scaunul · scaunele</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Badezimmer (baie):</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>die Badewanne</td><td>cada de baie</td></tr>
-                <tr><td>die Dusche</td><td>dușul</td></tr>
-                <tr><td>die Toilette</td><td>toaleta</td></tr>
-                <tr><td>das Waschbecken</td><td>chiuveta</td></tr>
-                <tr><td>die Waschmaschine</td><td>mașina de spălat rufe</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>die Badewanne · die Badewannen</td><td>cada de baie · căzile de baie</td></tr>
+                <tr><td>die Dusche · die Duschen</td><td>dușul · dușurile</td></tr>
+                <tr><td>die Toilette · die Toiletten</td><td>toaleta · toaletele</td></tr>
+                <tr><td>das Waschbecken · die Waschbecken</td><td>chiuveta · chiuvetele (pl identic)</td></tr>
+                <tr><td>die Waschmaschine · die Waschmaschinen</td><td>mașina de spălat rufe · mașinile de spălat rufe</td></tr>
             </table>
 
             <p style="margin: 14px 0 4px;"><strong>Arbeits-/Kinderzimmer + Balkon:</strong></p>
             <table class="grammar-table">
-                <tr><th>Germană</th><th>Traducere RO</th></tr>
-                <tr><td>der Schreibtisch</td><td>biroul (masa de lucru)</td></tr>
-                <tr><td>das Babybett</td><td>pătuțul de bebeluș</td></tr>
-                <tr><td>der Wickeltisch</td><td>masa de înfășat</td></tr>
-                <tr><td>der Grill</td><td>grătarul</td></tr>
-                <tr><td>die Sonnenliege</td><td>șezlongul</td></tr>
+                <tr><th>Germană (Sg · Pl)</th><th>Traducere RO (Sg · Pl)</th></tr>
+                <tr><td>der Schreibtisch · die Schreibtische</td><td>biroul · birourile (masa de lucru)</td></tr>
+                <tr><td>das Babybett · die Babybetten</td><td>pătuțul de bebeluș · pătuțurile de bebeluș</td></tr>
+                <tr><td>der Wickeltisch · die Wickeltische</td><td>masa de înfășat · mesele de înfășat</td></tr>
+                <tr><td>der Grill · die Grills</td><td>grătarul · grătarele</td></tr>
+                <tr><td>die Sonnenliege · die Sonnenliegen</td><td>șezlongul · șezlongurile</td></tr>
             </table>
         </div>
     </div>
